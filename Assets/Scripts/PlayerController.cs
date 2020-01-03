@@ -11,11 +11,15 @@ public class PlayerController : MonoBehaviour {
         //初始化一个默认状态机
         fsm.ChangeState(new MoveState());
     }
+
+    void Update() {
+        
+    }
     public void Move() {
-        Debug.Log("move");
+        Debug.Log("PlayerState is move");
     }
 
     public void Attack() {
-        Debug.Log("attack");
+        Debug.Log("PlayerState is attack");
     }
 }

@@ -20,5 +20,13 @@ public class FSM : MonoBehaviour
         if (currentState != null && playerController != null) {
             currentState.Execute(playerController);
         }
+        if (Input.GetKeyDown(KeyCode.A)) {
+            isCanAttack = true;
+            isCanMove = false;
+        }
+        if (Input.GetKeyDown(KeyCode.D)) {
+            isCanAttack = false;
+            isCanMove = true;
+        }
     }
 }
