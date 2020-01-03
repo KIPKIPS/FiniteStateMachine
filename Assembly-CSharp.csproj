@@ -62,6 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AttackState.cs" />
+    <Compile Include="Assets\Scripts\FSM.cs" />
+    <Compile Include="Assets\Scripts\IState.cs" />
+    <Compile Include="Assets\Scripts\MoveState.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity_WorkStation/Finite_State_Machine/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
